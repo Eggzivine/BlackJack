@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css"> <!-- Custom CSS after Bootstrap -->
+    <title>Blackjack</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Blackjack</h1>
+        <p id="message-el" class="lead">Want to play a round?</p>
+        <p id="cards-el" class="h5">Cards: ??</p>
+        <p id="sum-el" class="h5">Highest: 0</p>
+        <div class="mt-4">
+            <button id="btn1" class="btn" onclick="startGame()">START GAME</button>
+            <button id="btn2" class="btn" onclick="Rules()">Rules</button>
+        </div>
+        <p id="player-el" class="mt-3"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
